@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "svinosa:items/wooden_hoe"
+  }
+}

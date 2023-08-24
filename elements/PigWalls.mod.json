@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BasicPigBlock"
+      },
+      {
+        "value": "CUSTOM:BasicPigBlockEye"
+      },
+      {
+        "value": "CUSTOM:BasicPigBlockSnout"
+      },
+      {
+        "value": "CUSTOM:BasicPigRootedBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pig_walls",
+    "namespace": "svinosa"
+  }
+}

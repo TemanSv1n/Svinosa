@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "svinosa:blocks/pig_ore_block",
+    "up": "svinosa:blocks/pig_ore_block",
+    "north": "svinosa:blocks/pig_ore_block",
+    "east": "svinosa:blocks/pig_ore_block",
+    "south": "svinosa:blocks/pig_ore_block",
+    "west": "svinosa:blocks/pig_ore_block",
+    "particle": "svinosa:blocks/pig_ore_block"
+  }
+}

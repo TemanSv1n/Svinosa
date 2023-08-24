@@ -1,0 +1,63 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PigMouth"
+      },
+      {
+        "value": "CUSTOM:BasicPigBlock"
+      },
+      {
+        "value": "CUSTOM:BasicPigBlockEye"
+      },
+      {
+        "value": "CUSTOM:BasicPigBlockSnout"
+      },
+      {
+        "value": "CUSTOM:PigMouthTest"
+      },
+      {
+        "value": "CUSTOM:RepeaterPigBlock"
+      },
+      {
+        "value": "CUSTOM:BasicPigOre"
+      },
+      {
+        "value": "CUSTOM:PigHerbTorch"
+      },
+      {
+        "value": "CUSTOM:BasicPigRootedBlock"
+      },
+      {
+        "value": "CUSTOM:PigHerbRoots"
+      },
+      {
+        "value": "CUSTOM:PigEyeDaisy"
+      },
+      {
+        "value": "CUSTOM:PigHerbVinesPlant"
+      },
+      {
+        "value": "CUSTOM:PigGeyser"
+      },
+      {
+        "value": "CUSTOM:PigEgg"
+      },
+      {
+        "value": "CUSTOM:PigHerbRootsUpside"
+      },
+      {
+        "value": "CUSTOM:PigHerbSweepingVinesPlant"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pig_block",
+    "namespace": "svinosa"
+  }
+}

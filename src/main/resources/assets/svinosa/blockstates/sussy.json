@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "svinosa:block/sussy"
+    },
+    "facing=east": {
+      "model": "svinosa:block/sussy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "svinosa:block/sussy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "svinosa:block/sussy",
+      "y": 270
+    }
+  }
+}

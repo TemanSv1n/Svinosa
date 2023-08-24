@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "svinosa:blocks/pigged_roots",
+    "particle": "svinosa:blocks/pigged_roots"
+  }
+}

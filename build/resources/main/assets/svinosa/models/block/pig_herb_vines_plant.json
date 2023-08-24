@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "svinosa:blocks/pig_vines_plant",
+    "particle": "svinosa:blocks/pig_vines_plant"
+  }
+}

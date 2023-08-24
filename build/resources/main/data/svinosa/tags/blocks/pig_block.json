@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "svinosa:pig_mouth_test",
+    "svinosa:repeater_pig_block",
+    "svinosa:pig_herb_roots",
+    "svinosa:basic_pig_block",
+    "svinosa:pig_egg",
+    "svinosa:basic_pig_ore",
+    "svinosa:pig_eye_daisy",
+    "svinosa:basic_pig_block_snout",
+    "svinosa:pig_herb_torch",
+    "svinosa:pig_herb_roots_upside",
+    "svinosa:pig_herb_sweeping_vines_plant",
+    "svinosa:basic_pig_rooted_block",
+    "svinosa:pig_herb_vines_plant",
+    "svinosa:pig_geyser",
+    "svinosa:basic_pig_block_eye"
+  ]
+}

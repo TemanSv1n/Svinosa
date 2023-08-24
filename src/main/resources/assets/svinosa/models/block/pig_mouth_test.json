@@ -1,0 +1,8 @@
+{
+  "parent": "svinosa:custom/pig_mouth",
+  "textures": {
+    "all": "svinosa:blocks/ded",
+    "particle": "svinosa:blocks/ded",
+    "0": "svinosa:blocks/pig_mouth"
+  }
+}

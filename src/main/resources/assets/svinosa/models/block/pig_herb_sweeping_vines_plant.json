@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "svinosa:blocks/sweeping_vines",
+    "particle": "svinosa:blocks/sweeping_vines"
+  }
+}

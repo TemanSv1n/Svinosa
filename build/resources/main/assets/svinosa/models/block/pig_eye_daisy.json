@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "svinosa:blocks/pigeye_daisy",
+    "particle": "svinosa:blocks/pigeye_daisy"
+  }
+}

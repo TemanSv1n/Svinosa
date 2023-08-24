@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "svinosa:basic_pig_block",
+    "svinosa:basic_pig_rooted_block",
+    "svinosa:basic_pig_block_snout",
+    "svinosa:basic_pig_block_eye"
+  ]
+}

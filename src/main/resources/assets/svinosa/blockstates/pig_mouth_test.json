@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "svinosa:block/pig_mouth_test"
+    },
+    "facing=east": {
+      "model": "svinosa:block/pig_mouth_test",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "svinosa:block/pig_mouth_test",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "svinosa:block/pig_mouth_test",
+      "y": 270
+    }
+  }
+}

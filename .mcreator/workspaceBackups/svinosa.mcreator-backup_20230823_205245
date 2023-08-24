@@ -1,0 +1,1505 @@
+{
+  "mod_elements": [
+    {
+      "name": "Svinosa",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svinosa",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PigBlock",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PigWalls",
+      "type": "tag",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_walls.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicPigBlockEye",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_block_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/basic_pig_block_eye.json",
+          "src/main/resources/assets/svinosa/models/item/basic_pig_block_eye.json",
+          "src/main/java/net/svisvi/svinosa/block/BasicPigBlockEyeBlock.java",
+          "src/main/resources/assets/svinosa/models/block/basic_pig_block_eye.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicPigBlockSnout",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_block_snout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/basic_pig_block_snout.json",
+          "src/main/resources/assets/svinosa/blockstates/basic_pig_block_snout.json",
+          "src/main/java/net/svisvi/svinosa/block/BasicPigBlockSnoutBlock.java",
+          "src/main/resources/assets/svinosa/models/block/basic_pig_block_snout.json"
+        ]
+      }
+    },
+    {
+      "name": "PigSolid",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_solid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_solid.json"
+        ]
+      }
+    },
+    {
+      "name": "PigInfectionStick",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_infection_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/item/PigInfectionStickItem.java",
+          "src/main/resources/assets/svinosa/models/item/pig_infection_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "FindTagInBox",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find_tag_in_box",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/FindTagInBoxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "bx",
+            "type": "number"
+          },
+          {
+            "name": "by",
+            "type": "number"
+          },
+          {
+            "name": "bz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "tag",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigMouthSpreadingStart",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_mouth_spreading_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigMouthSpreadingStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "food_item",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FindTagInBoxRandReturn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find_tag_in_box_rand_return",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/FindTagInBoxRandReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "bx",
+            "type": "number"
+          },
+          {
+            "name": "by",
+            "type": "number"
+          },
+          {
+            "name": "bz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "tag",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlacePigWalls",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_pig_walls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PlacePigWallsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BasicPigSpreadingHandler",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_spreading_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/BasicPigSpreadingHandlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "p_radius",
+            "type": "number"
+          },
+          {
+            "name": "p_radius_i",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "eff_param",
+            "type": "string"
+          },
+          {
+            "name": "pigabl",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SplitCoordsString",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_coords_string",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SplitCoordsStringProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "CoordsStringus",
+            "type": "string"
+          },
+          {
+            "name": "ReturnCoord",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigInfectionStickRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_infection_stick_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigInfectionStickRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigMouthTest",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_mouth_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/pig_mouth_test.json",
+          "src/main/java/net/svisvi/svinosa/block/PigMouthTestBlock.java",
+          "src/main/resources/assets/svinosa/models/block/pig_mouth_test.json",
+          "src/main/resources/assets/svinosa/models/item/pig_mouth_test.json",
+          "src/main/java/net/svisvi/svinosa/block/entity/PigMouthTestBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PigWallsDeco",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_walls_deco",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_walls_deco.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicPigOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/basic_pig_ore.json",
+          "src/main/java/net/svisvi/svinosa/block/entity/BasicPigOreBlockEntity.java",
+          "src/main/resources/assets/svinosa/blockstates/basic_pig_ore.json",
+          "src/main/resources/assets/svinosa/models/block/basic_pig_ore.json",
+          "src/main/java/net/svisvi/svinosa/block/BasicPigOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PigBloodDroplet",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_blood_droplet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/pig_blood_droplet.json",
+          "src/main/java/net/svisvi/svinosa/item/PigBloodDropletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BasicPigOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basic_pig_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/loot_tables/blocks/basic_pig_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PlacePigOre",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_pig_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PlacePigOreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RepeaterPigBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repeater_pig_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/block/repeater_pig_block.json",
+          "src/main/resources/assets/svinosa/blockstates/repeater_pig_block.json",
+          "src/main/resources/assets/svinosa/models/item/repeater_pig_block.json",
+          "src/main/java/net/svisvi/svinosa/block/RepeaterPigBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PigRepeater",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_repeater",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_repeater.json"
+        ]
+      }
+    },
+    {
+      "name": "FindTagInBoxRandReturnDict",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "find_tag_in_box_rand_return_dict",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/FindTagInBoxRandReturnDictProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "bx",
+            "type": "number"
+          },
+          {
+            "name": "by",
+            "type": "number"
+          },
+          {
+            "name": "bz",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbTorch",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_torch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/block/PigHerbTorchBlock.java",
+          "src/main/resources/assets/svinosa/models/block/pig_herb_torch.json",
+          "src/main/resources/assets/svinosa/models/item/pig_herb_torch.json",
+          "src/main/resources/assets/svinosa/blockstates/pig_herb_torch.json"
+        ]
+      }
+    },
+    {
+      "name": "PigHerb",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_herb.json"
+        ]
+      }
+    },
+    {
+      "name": "PlacePigHerb",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_pig_herb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PlacePigHerbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BasicPigRootedBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_rooted_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/basic_pig_rooted_block.json",
+          "src/main/resources/assets/svinosa/models/item/basic_pig_rooted_block.json",
+          "src/main/java/net/svisvi/svinosa/block/BasicPigRootedBlockBlock.java",
+          "src/main/resources/assets/svinosa/models/block/basic_pig_rooted_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PigHerbRoots",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/pig_herb_roots.json",
+          "src/main/java/net/svisvi/svinosa/block/PigHerbRootsBlock.java",
+          "src/main/resources/assets/svinosa/blockstates/pig_herb_roots.json",
+          "src/main/resources/assets/svinosa/models/block/pig_herb_roots.json"
+        ]
+      }
+    },
+    {
+      "name": "PigEyeDaisy",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_eye_daisy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/pig_eye_daisy.json",
+          "src/main/resources/assets/svinosa/models/item/pig_eye_daisy.json",
+          "src/main/java/net/svisvi/svinosa/block/PigEyeDaisyBlock.java",
+          "src/main/resources/assets/svinosa/models/block/pig_eye_daisy.json"
+        ]
+      }
+    },
+    {
+      "name": "PigHerbVinesPlant",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pig_herb_vines_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/pig_herb_vines_plant.json",
+          "src/main/resources/assets/svinosa/blockstates/pig_herb_vines_plant.json",
+          "src/main/java/net/svisvi/svinosa/block/PigHerbVinesPlantBlock.java",
+          "src/main/resources/assets/svinosa/models/block/pig_herb_vines_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "PigHerbVinesPlantEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_vines_plant_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigHerbVinesPlantEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sussy",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/models/item/sussy.json",
+          "src/main/resources/assets/svinosa/models/block/sussy.json",
+          "src/main/resources/assets/svinosa/blockstates/sussy.json",
+          "src/main/java/net/svisvi/svinosa/block/SussyBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SussyBlockAdded",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SussyBlockAddedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PigVineBlockAdded",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_vine_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigVineBlockAddedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PigVineGrowUp",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_vine_grow_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigVineGrowUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "p_lenght",
+            "type": "number"
+          },
+          {
+            "name": "p_radius_i",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "eff_param",
+            "type": "string"
+          },
+          {
+            "name": "pigabl",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigVineValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_vine_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigVineValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigVineNeighbourBlockChanged",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_vine_neighbour_block_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigVineNeighbourBlockChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigHerbValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbNeighbourBlockChanged",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_neighbour_block_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigHerbNeighbourBlockChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SelectRandomUpPigEffect",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_random_up_pig_effect",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SelectRandomUpPigEffectProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PigGeyserUpdateTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_geyser_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigGeyserUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigEgg",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/block/PigEggBlock.java",
+          "src/main/resources/assets/svinosa/blockstates/pig_egg.json",
+          "src/main/java/net/svisvi/svinosa/block/entity/PigEggBlockEntity.java",
+          "src/main/resources/assets/svinosa/models/item/pig_egg.json",
+          "src/main/resources/assets/svinosa/models/block/pig_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PigEggUpdateTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_egg_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigEggUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigGeyserGeoRedstoneOn",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_geyser_geo_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigGeyserGeoRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigGeyser",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_geyser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/block/PigGeyserBlock.java",
+          "src/main/resources/assets/svinosa/blockstates/pig_geyser.json",
+          "src/main/resources/assets/svinosa/models/block/pig_geyser.json",
+          "src/main/resources/assets/svinosa/models/item/pig_geyser.json"
+        ]
+      }
+    },
+    {
+      "name": "SussyBlock",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/sussy_block.json",
+          "src/main/resources/assets/svinosa/models/item/sussy_block.json",
+          "src/main/resources/assets/svinosa/models/block/sussy_block.json",
+          "src/main/java/net/svisvi/svinosa/block/SussyBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BasicPigBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_pig_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/svinosa/blockstates/basic_pig_block.json",
+          "src/main/resources/assets/svinosa/models/item/basic_pig_block.json",
+          "src/main/resources/assets/svinosa/models/block/basic_pig_block.json",
+          "src/main/java/net/svisvi/svinosa/block/BasicPigBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SelectRandomDownPigEffect",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_random_down_pig_effect",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SelectRandomDownPigEffectProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PigHerbRootsUpside",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_roots_upside",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/block/PigHerbRootsUpsideBlock.java",
+          "src/main/resources/assets/svinosa/models/item/pig_herb_roots_upside.json",
+          "src/main/resources/assets/svinosa/models/block/pig_herb_roots_upside.json",
+          "src/main/resources/assets/svinosa/blockstates/pig_herb_roots_upside.json"
+        ]
+      }
+    },
+    {
+      "name": "PigHerbUpsideValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_upside_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigHerbUpsideValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbUpsideNeighbourChanged",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_upside_neighbour_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigHerbUpsideNeighbourChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbUpside",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_herb_upside",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/svinosa/tags/blocks/pig_herb_upside.json"
+        ]
+      }
+    },
+    {
+      "name": "PlacePigHerbUpside",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_pig_herb_upside",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PlacePigHerbUpsideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SweepingVineGrowUp",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweeping_vine_grow_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SweepingVineGrowUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "f_dist",
+            "type": "number"
+          },
+          {
+            "name": "p_lenght",
+            "type": "number"
+          },
+          {
+            "name": "p_radius_i",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "eff_param",
+            "type": "string"
+          },
+          {
+            "name": "pigabl",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SweepingVineValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweeping_vine_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SweepingVineValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigHerbSweepingVinesPlant",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pig_herb_sweeping_vines_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/block/PigHerbSweepingVinesPlantBlock.java",
+          "src/main/resources/assets/svinosa/blockstates/pig_herb_sweeping_vines_plant.json",
+          "src/main/resources/assets/svinosa/models/block/pig_herb_sweeping_vines_plant.json",
+          "src/main/resources/assets/svinosa/models/item/pig_herb_sweeping_vines_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "SweepingVineNeighbourBlockChanged",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweeping_vine_neighbour_block_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SweepingVineNeighbourBlockChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SelectRandomVinesPigEffect",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_random_vines_pig_effect",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SelectRandomVinesPigEffectProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SelectRandomPigEntity",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_random_pig_entity",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SelectRandomPigEntityProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SpawnRandomPig",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_random_pig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/SpawnRandomPigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigEggHatch",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_egg_hatch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/svinosa/procedures/PigEggHatchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "pigsAmount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.svinosa.pig_herb_vines_plant": "Pig Herb Vines Plant",
+      "block.svinosa.pig_geyser": "Pig Geyser",
+      "block.svinosa.basic_pig_block": "Basic Pig Block",
+      "block.svinosa.basic_pig_rooted_block": "Basic Rooted Pig Block",
+      "block.svinosa.sussy": "Sussy",
+      "item.svinosa.pig_infection_stick": "Pig Infection Stick",
+      "block.svinosa.pig_mouth_test": "Pig Mouth Test",
+      "block.svinosa.pig_egg": "Pig Egg",
+      "block.svinosa.pig_herb_roots_upside": "Pig Roots",
+      "block.svinosa.basic_pig_block_snout": "Snout Pig Block",
+      "itemGroup.tabsvinosa": "Svinosa",
+      "block.svinosa.basic_pig_block_eye": "Eye Pig Block",
+      "block.svinosa.basic_pig_ore": "Basic Pig Ore",
+      "block.svinosa.pig_eye_daisy": "Pigeye Daisy",
+      "block.svinosa.repeater_pig_block": "Repeater Pig Block",
+      "block.svinosa.pig_herb_torch": "Pig Torch",
+      "block.svinosa.pig_herb_roots": "Pig Roots",
+      "block.svinosa.sussy_block": "Sussy Block",
+      "block.svinosa.pig_herb_sweeping_vines_plant": "Pig Herb Sweeping Vines Plant",
+      "item.svinosa.pig_blood_droplet": "Pig Blood Droplet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "svinosa",
+    "modName": "The Svinosa",
+    "version": "1.0.0",
+    "author": "Svineld, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.svisvi.svinosa",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300108712
+}

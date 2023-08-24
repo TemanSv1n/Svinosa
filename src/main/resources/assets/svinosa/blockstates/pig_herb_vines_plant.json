@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "level=0": {
+      "model": "svinosa:block/pig_herb_vines_plant"
+    },
+      "level=1": {
+      "model": "svinosa:block/pig_herb_vines_plant_top"
+    }
+  }
+}

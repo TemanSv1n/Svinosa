@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "svinosa:blocks/pig_sapling",
+    "particle": "svinosa:blocks/pig_sapling"
+  }
+}

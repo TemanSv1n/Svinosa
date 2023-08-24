@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:PigHerbRootsUpside"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:PigHerbRootsUpside"
+      },
+      {
+        "value": "CUSTOM:PigHerbSweepingVinesPlant"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pig_herb_upside",
+    "namespace": "svinosa"
+  }
+}

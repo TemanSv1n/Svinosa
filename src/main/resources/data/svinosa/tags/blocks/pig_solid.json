@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "svinosa:repeater_pig_block",
+    "svinosa:basic_pig_block",
+    "svinosa:basic_pig_rooted_block",
+    "svinosa:basic_pig_ore",
+    "svinosa:basic_pig_block_snout",
+    "svinosa:basic_pig_block_eye"
+  ]
+}

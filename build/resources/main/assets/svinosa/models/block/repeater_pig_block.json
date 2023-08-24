@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "svinosa:blocks/cyber_pig_block_top",
+    "up": "svinosa:blocks/cyber_pig_block_top",
+    "north": "svinosa:blocks/cyber_pig_block_top",
+    "east": "svinosa:blocks/cyber_pig_block_top",
+    "south": "svinosa:blocks/cyber_pig_block_top",
+    "west": "svinosa:blocks/cyber_pig_block_top",
+    "particle": "svinosa:blocks/cyber_pig_block_top"
+  }
+}

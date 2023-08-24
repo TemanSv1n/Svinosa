@@ -1,0 +1,7 @@
+{
+  "parent": "svinosa:custom/pig_ball",
+  "textures": {
+    "all": "svinosa:blocks/pig_egg",
+    "particle": "svinosa:blocks/pig_egg"
+  }
+}
